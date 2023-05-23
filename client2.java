@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class client2 {
     public static void main(String[] args) throws IOException {
 
-        Socket s2=new Socket("localhost",8080);
+        Socket s2=new Socket("3.24.242.26",8080);
         
         PrintWriter pr=new PrintWriter(s2.getOutputStream());
 
