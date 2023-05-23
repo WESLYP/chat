@@ -9,7 +9,7 @@ public class client1 {
 
     public static void main(String[] args) throws IOException{
         
-            Socket s1=new Socket("localhost",8080);
+            Socket s1=new Socket("3.24.242.26",8080);
 
             PrintWriter pr=new PrintWriter(s1.getOutputStream());
 
